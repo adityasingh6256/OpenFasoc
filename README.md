@@ -98,5 +98,16 @@ sudo make install
 make test
 
 ```   
+## Run Openfasoc Flow   
+
+before that-
+
+1. cd into the directory where the OpenFASoC repository was cloned;
+
+Now edit the openfasoc/common/platform_config.json file, replacing the open_pdks value with the path to the sky130A/ directory from open_pdks;  
+2. 
+
+3. edit /fasoc/openfasoc/openfasoc/generators/temp-sense-gen/flow/Makefile at line 657 python to python3.9 or python3.8 which is present at your computer/bin/ 
+4. edit /fasoc/openfasoc/openfasoc/generators/temp-sense-gen/flow/Makefile , insert a line at 167 export OPENROAD_EXE = /home/aditya/fasoc/openfasoc/openfasoc/generators/temp-sense-gen/tools/install/OpenROAD/bin/openroad
 
 
