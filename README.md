@@ -102,12 +102,29 @@ make test
 
 before that-
 
-1. cd into the directory where the OpenFASoC repository was cloned;
+1.  cd into the directory where the OpenFASoC repository was cloned;
 
-Now edit the openfasoc/common/platform_config.json file, replacing the open_pdks value with the path to the sky130A/ directory from open_pdks;  
-2. 
+    Now edit the openfasoc/common/platform_config.json file, replacing the open_pdks value with the path to the sky130A/ directory from open_pdks;
+    
+2. copy  /home/aditya/fasoc/openfasoc/openfasoc/OpenROAD/build/src/openroad  /home/aditya/fasoc/openfasoc/openfasoc/generators/temp-sense-gen/tools/install/OpenROAD/bin/openroad
 
 3. edit /fasoc/openfasoc/openfasoc/generators/temp-sense-gen/flow/Makefile at line 657 python to python3.9 or python3.8 which is present at your computer/bin/ 
+
 4. edit /fasoc/openfasoc/openfasoc/generators/temp-sense-gen/flow/Makefile , insert a line at 167 export OPENROAD_EXE = /home/aditya/fasoc/openfasoc/openfasoc/generators/temp-sense-gen/tools/install/OpenROAD/bin/openroad
+
+## Temperature Sensor Generator   
+
+Circuit   
+-------
+This generator creates a compact mixed-signal temperature sensor based on the topology from this [paper](https://ieeexplore.ieee.org/document/9816083).   
+
+It consists of a ring oscillator whose frequency is controlled by the voltage drop over a MOSFET operating in subthreshold regime, where its dependency on temperature is exponential.   
+
+![tempsense_ckt](https://user-images.githubusercontent.com/110079631/199317479-67f157c5-6934-470b-8552-5451b1361b9c.png)    
+
+### OpenFASOC Flow
+<p align="center">
+  <img src="/images/of3.png">
+</p><br>   
 
 
