@@ -127,4 +127,25 @@ It consists of a ring oscillator whose frequency is controlled by the voltage dr
   <img src="/images/of3.png">
 </p><br>   
 
+```   
+temp-sense-gen
+├── blocks
+└── flow
+    └── design
+        ├── sky130hd
+        │   └── tempsense
+        │       ├── config.mk             <--
+        │       └── constraint.sdc
+        └── src
+            └── tempsense
+                ├── counter.v             <--
+                ├── TEMP_ANALOG_hv.nl.v   <--
+                ├── TEMP_ANALOG_lv.nl.v   <--
+                ├── TEMP_AUTO_def.v       <--
+                └── tempsenseInst_error.v <--
+```    
 
+The steps from the RTL-to-GDS flow look like this, usual in a digital flow:   
+<p align="center">
+  <img src="/images/">
+</p><br>   
