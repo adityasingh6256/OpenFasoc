@@ -112,6 +112,16 @@ before that-
 
 4. edit /fasoc/openfasoc/openfasoc/generators/temp-sense-gen/flow/Makefile , insert a line at 167 export OPENROAD_EXE = /home/aditya/fasoc/openfasoc/openfasoc/generators/temp-sense-gen/tools/install/OpenROAD/bin/openroad
 
+
+After that   
+
+run flow-  
+
+<p align="center">   
+  <img src="images/tempsense_digflow_diagram.png">
+</p><br>    
+
+
 ## Temperature Sensor Generator   
 
 Circuit   
@@ -188,6 +198,12 @@ using this generated files-
 
 ![image](https://user-images.githubusercontent.com/110079729/199910810-4962f9ed-95e8-4857-ae3f-8acf9d9fe634.png)
 
+User Specs    
+
+Temperature sensing range: -20⁰C – 125⁰C    
+
+Frequency range of operation: 100Hz – 10MHz    
+
 * Inputs
 
 1. CLK_REF: System clock taken from input.
@@ -202,7 +218,12 @@ using this generated files-
 
 2. DONE: Validity signal for DOUT
 
-Theses are the verilog template files which are used for the creation of netlist verilog files.
+Theses are the verilog template files which are used for the creation of netlist verilog files.    
+
+We use an all-digital temperature sensor architecture, that relies on a new subthreshold oscillator (achieved using the auxiliary cell “Header Cell“) for realizing synthesizable thermal sensors. We choose frequency as the temperature dependent variable. So, we use a ring oscillators that is based on inverters only and stacked native IO devices for better line sensitivity.    
+Since the subthreshold current has an exponential dependency on the temperature, the frequency generated from the subthreshold ring oscillator is also dependent on temperature. Using this principle, we can sense the temperature by comparing the clock generated from a reference oscillator and the clock frequency from our proposed frequency generator.
+
+
    
 
 
