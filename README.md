@@ -137,6 +137,13 @@ after the flow completed you get
   <img src="images/Screenshot from 2022-11-21 17-36-33.png">
 </p><br>    
 
+klayout view of 6_final.gds   
+
+<p align="center">   
+  <img src="images/Screenshot from 2022-11-21 17-43-00.png">
+</p><br>    
+
+
 
 ## Temperature Sensor Generator   
 
