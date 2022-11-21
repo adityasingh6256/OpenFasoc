@@ -150,6 +150,11 @@ The steps from the RTL-to-GDS flow look like this, usual in a digital flow:
   <img src="images/tempsense_digflow_diagram.png">
 </p><br>    
 
+<p align="center">   
+  <img src="images/tempsense_flow_diagram.png">
+</p><br>    
+
+
 ```   
 temp-sense-gen
 ├── blocks
@@ -196,10 +201,6 @@ using this generated files-
 <p align="center">   
   <img src="images/hv,lv,counter_gen.png">
 </p><br>   
-
-<p align="center">   
-  <img src="images/tempsense_flow_diagram.png">
-</p><br>    
 
 
  #### what are hv lv file do-   
