@@ -128,6 +128,15 @@ the tool is trying to minimize the error iteratively, by varying the number of i
   <img src="images/run_flow2.png">
 </p><br>    
 
+after the flow completed you get    
+<p align="center">   
+  <img src="images/Screenshot from 2022-11-21 17-36-06.png">
+</p><br>    
+
+<p align="center">   
+  <img src="images/Screenshot from 2022-11-21 17-36-33.png">
+</p><br>    
+
 
 ## Temperature Sensor Generator   
 
