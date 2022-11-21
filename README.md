@@ -127,6 +127,12 @@ It consists of a ring oscillator whose frequency is controlled by the voltage dr
   <img src="/images/of3.png">
 </p><br>   
 
+
+The steps from the RTL-to-GDS flow look like this, usual in a digital flow:   
+<p align="center">   
+  <img src="images/tempsense_digflow_diagram.png">
+</p><br>    
+
 ```   
 temp-sense-gen
 ├── blocks
@@ -145,7 +151,3 @@ temp-sense-gen
                 └── tempsenseInst_error.v <--
 ```    
 
-The steps from the RTL-to-GDS flow look like this, usual in a digital flow:   
-<p align="center">
-  <img src="/images/">
-</p><br>   
