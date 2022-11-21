@@ -118,7 +118,7 @@ After that
 run flow-  
 
 <p align="center">   
-  <img src="images/tempsense_digflow_diagram.png">
+  <img src="images/run_start.png">
 </p><br>    
 
 
@@ -187,7 +187,7 @@ using this generated files-
 3.counter.v    
 
 <p align="center">   
-  <img src="images/">
+  <img src="images/hv,lv,counter_gen.png">
 </p><br>    
 
  #### what are hv lv file do-   
