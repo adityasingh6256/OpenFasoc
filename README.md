@@ -121,6 +121,13 @@ run flow-
   <img src="images/run_start.png">
 </p><br>    
 
+The generator references the model files in an iterative process until either meeting specifications or failing.     
+the tool is trying to minimize the error iteratively, by varying the number of inverters and headers for the given temperature range.   
+
+<p align="center">   
+  <img src="images/run_flow2.png">
+</p><br>    
+
 
 ## Temperature Sensor Generator   
 
@@ -162,11 +169,11 @@ temp-sense-gen
 ```    
 The default circuit’s physical design generation can be divided into three parts:
 
- 1. Verilog generation
+ 1. Verilog generation     
 
- 2. RTL-to-GDS flow (OpenROAD)
+ 2. RTL-to-GDS flow (OpenROAD)     
 
- 3. Post-layout verification (DRC and LVS)
+ 3. Post-layout verification (DRC and LVS)     
 
 ### Verilog generation   
 
@@ -176,11 +183,11 @@ The generator starts from a Verilog template of the temperature sensor circuit, 
 
 templetes -
 
-1.TEMP_ANALOG_hv.v
-2.TEMP_ANALOG_lv.v
-3.counter_generic.v
+1.TEMP_ANALOG_hv.v      
+2.TEMP_ANALOG_lv.v     
+3.counter_generic.v     
 
-using this generated files-
+using this generated files-     
 
 1.TEMP_ANALOG_hv.nl.v    
 2.TEMP_ANALOG_lv.nl.v    
