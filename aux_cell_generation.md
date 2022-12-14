@@ -115,9 +115,11 @@ General syntax to give inputs
 schematic2layout.py <NETLIST_DIR> -p <PDK_DIR>/
 ```
 
-#### FLOW
+#### FLOW    
 
-https://github.com/adityasingh6256/OpenFasoc/blob/d378b18417f9d4d36ec33d08b678f5cd6502ab73/images/Screenshot%20from%202022-12-15%2001-28-59.png
+<p align="center">   
+  <img src="images/Screenshot%20from%202022-12-15%2001-28-59.png">
+</p><br>   
 
 #### Generated .lef and .gds
 
