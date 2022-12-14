@@ -12,13 +12,13 @@ loop filter according to two logical inputs.
 
 ![CP](https://user-images.githubusercontent.com/110079763/206902465-51f3c27a-219a-4a0c-b768-72321d4f9ed4.png)
 
-# Phase frequency detector
+## Phase frequency detector
 ![PFD](https://user-images.githubusercontent.com/110079763/206902472-fdc42b56-e77f-4ea3-8196-719e90638ee0.png)
 
-# Frequency Divider
+## Frequency Divider
 ![FDD](https://user-images.githubusercontent.com/110079763/206902481-f9512a87-907c-4027-8454-f614a1c85504.png)
 
-# VCO
+## VCO
 ![VCO](https://user-images.githubusercontent.com/110079763/206902490-9021933d-ac0f-4eaf-bcc7-464abacefee9.png)
 
 
@@ -85,7 +85,7 @@ pip install -v -e .[test] --no-build-isolation
 pip install -v --no-build-isolation -e . --no-deps --install-option='-DBUILD_TESTING=ON'
 ```
 
-#### Making ALIGN Portable to Sky130 tehnology
+## Making ALIGN Portable to Sky130 tehnology
 
 Clone the following Repository inside ALIGN-public directory
 
@@ -95,7 +95,7 @@ git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
 
 move `SKY130_PDK` folder to `/home/aditya/fasoc/ALIGN-public/pdks`
 
-#### Running ALIGN TOOL
+## Running ALIGN TOOL
 
 Everytime we start running tool in new terminal run following commands.
 
@@ -115,15 +115,15 @@ General syntax to give inputs
 schematic2layout.py <NETLIST_DIR> -p <PDK_DIR>/
 ```
 
-#### FLOW    
+## FLOW    
 
 <p align="center">   
   <img src="images/Screenshot%20from%202022-12-15%2001-28-59.png">
 </p><br>   
 
-#### Generated .lef and .gds
+## Generated .lef and .gds
 
-# GDS
+### VCO GDS
 
 <p align="center">   
   <img src="images/1.png">
@@ -134,7 +134,7 @@ schematic2layout.py <NETLIST_DIR> -p <PDK_DIR>/
 </p><br>   
 
 
-# LEF
+### VCO LEF
 
 <p align="center">   
   <img src="images/3.png">
