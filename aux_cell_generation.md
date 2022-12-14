@@ -117,17 +117,7 @@ schematic2layout.py <NETLIST_DIR> -p <PDK_DIR>/
 
 #### FLOW
 
-Creating a Python virtualenv
-
-![PYTHON](https://user-images.githubusercontent.com/110079763/206902533-2dc7c419-86ac-437d-b154-55b74f0c2764.png)
-
-
-Running design
-
-![ALIGN1](https://user-images.githubusercontent.com/110079763/206902537-b4ba353a-4604-4b2e-a3be-0f8d9638c7a2.png)
-
-
-![ALIGN2](https://user-images.githubusercontent.com/110079763/206902541-b9fa1995-dd98-4cbc-aa1e-8f313ea0d0a5.png)
+https://github.com/adityasingh6256/OpenFasoc/blob/d378b18417f9d4d36ec33d08b678f5cd6502ab73/images/Screenshot%20from%202022-12-15%2001-28-59.png
 
 #### Generated .lef and .gds
 
