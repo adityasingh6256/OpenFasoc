@@ -93,7 +93,7 @@ Clone the following Repository inside ALIGN-public directory
 git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
 ```
 
-move `SKY130_PDK` folder to `/home/ritesh/Documents/GitHub/OpenFASoC/AUXCELL/ALIGN-public/pdks`
+move `SKY130_PDK` folder to `/home/aditya/fasoc/ALIGN-public/pdks`
 
 #### Running ALIGN TOOL
 
@@ -112,7 +112,7 @@ cd work
 ```
 General syntax to give inputs
 ```
-schematic2layout.py <NETLIST_DIR> -p <PDK_DIR> -c
+schematic2layout.py <NETLIST_DIR> -p <PDK_DIR>/
 ```
 
 #### FLOW
