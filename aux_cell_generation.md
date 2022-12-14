@@ -125,10 +125,21 @@ schematic2layout.py <NETLIST_DIR> -p <PDK_DIR>/
 
 # GDS
 
-![GDS](https://user-images.githubusercontent.com/110079763/206902674-74e3c306-c16d-4ed5-9f42-9ec61c75d609.png)
+<p align="center">   
+  <img src="images/1.png">
+</p><br>   
+
+<p align="center">   
+  <img src="images/2.png">
+</p><br>   
+
 
 # LEF
-![LEF](https://user-images.githubusercontent.com/110079763/206902686-155a089e-d283-4bbb-9230-e02317618c4b.png)
+
+<p align="center">   
+  <img src="images/3.png">
+</p><br>   
+
 
 # FUTURE WORK
 
